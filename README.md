@@ -1,27 +1,23 @@
 # Python/Raspberry Pi Relay Controller (LED Photoreactor)
 
 ## Description
-Android APK written in python/kivy that allows scientists to quickly and easily convert common energy units used.
+Tkinter based GUI for controlling a relay board powered by a Raspberry Pi microcomputer. In the original use case, each relay is connected to a 10 W LED allowing for an array of LED photoreactors that can be powered for a set time period.
 
 ## Project Status
-Published on Google Play, small bug fixes will be made and potentially an IOS version will be released in the coming months.
+No longer being updated, final state. 
 
 ## Installation
-The live APK can be found on the Google Play store and can be installed on any android device.
-
-On Windows or Linux computers, the python package (main.py) can be run as long as the EnergyConversions.py is found in the same directory. This will generate the GUI and allow users to work with the energy conversion tools on their PCs.
-
-Building a modified APK from the python package requires Buildozer to be configured on a linux machine or VM.
+On Windows or Linux computers, the python package (ZalRelayv2.py) can be run as long as the required python packages are installed. Relay board must be connected to the Raspberry Pi with correct GPIO pinout.
 
 ## Usage
 
-'''python main.py'''
+'''python ZalRelayv2.py'''
 
 ## Support
-Contact the author at mmfahey92@gmail.com
+Contact the author at mmfahey92@gmail.com if any major bugs found.
 
 ## Roadmap
-Plan on releasing and IOS version by Fall 2021 and plan on continued bug fixes and update implementations as wanted or needed.
+No future updates outside of bug fixes.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
