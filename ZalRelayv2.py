@@ -1,4 +1,5 @@
-#import needed libraries
+#import
+#  needed libraries
 import RPi.GPIO as GPIO
 import time
 import tkinter as tk
